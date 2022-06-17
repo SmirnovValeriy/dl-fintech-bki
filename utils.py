@@ -7,7 +7,7 @@ from typing import List
 def read_parquet_dataset_from_local(path_to_dataset: str, start_from: int = 0, num_parts_to_read: int = 2, 
                                     columns: List[str] = None, verbose: bool = False) -> pd.DataFrame:
     """
-    Читает ``num_parts_to_read партиций`` и преобразует их к pandas.DataFrame.
+    Читает ``num_parts_to_read`` партиций и преобразует их к pandas.DataFrame.
 
     Параметры:
     -----------
